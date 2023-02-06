@@ -1,0 +1,28 @@
+
+.block {
+    background-color: pink;
+    height: 100vh;
+}
+
+.container {
+    flex-direction: column;
+}
+
+
+.form {
+    border: 1px solid brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 50%;
+}
+textarea{
+    height: 50%;
+}
+.button {
+    width: 100px;
+    height: 40px;
+    background-color: darkgrey;
+}
+

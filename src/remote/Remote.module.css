@@ -1,0 +1,30 @@
+
+.remoteBlock{
+    background-color: cornsilk;
+
+}
+
+.remoteContainer{
+
+justify-content: center;
+}
+.row{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+   
+    align-items:center ;
+    border: 3px solid darkslategray;
+}
+
+.button{
+    width: 100px;
+    height: 40px;
+
+    background-color: #c4cfde ;
+}
+
+.titleRemote{
+    background-color: aquamarine;
+    text-align: center;
+}

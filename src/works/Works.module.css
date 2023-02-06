@@ -1,0 +1,25 @@
+
+
+
+.worksBlock{
+    height: 100vh;
+    background-color: mediumpurple;
+}
+.worksContainer{
+    border: 2px solid brown;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.worksRow{
+    border: 2px solid;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /*height: 70%;*/
+
+
+}
+.title{
+    background-color: aquamarine;
+}
