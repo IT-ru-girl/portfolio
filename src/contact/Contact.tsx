@@ -1,7 +1,6 @@
 import React from 'react';
 import contact from './Contact.module.css'
 import c from '../common/styles/container.module.css';
-import r from '../remote/Remote.module.css';
 import Input from './Input';
 
 const Contact = () => {
@@ -15,10 +14,8 @@ const Contact = () => {
                         <Input/>
                         <textarea/>
                     </form>
+                    <a href='#' className={contact.button}>Отправить</a>
 
-                <div>
-                    <button className={contact.button}>Отправить</button>
-                </div>
             </div>
         </div>
     );

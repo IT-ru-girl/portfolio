@@ -1,22 +1,21 @@
 
-
-.block{
-
+.block {
     background-color: burlywood;
 }
-.container{
+
+.container {
     flex-direction: column;
 }
 
-
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     width: 50%;
-flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 10px;
 }
-.some{
+
+.some {
     width: 50px;
     height: 50px;
     background-color: pink;

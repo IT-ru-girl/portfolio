@@ -1,7 +1,7 @@
 
 .block {
     background-color: pink;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
@@ -21,8 +21,15 @@ textarea{
     height: 50%;
 }
 .button {
-    width: 100px;
-    height: 40px;
+    width: 110px;
+    min-height: 40px;
     background-color: darkgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+    line-height: 150%;
+    padding: 5px;
 }
 

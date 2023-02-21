@@ -5,30 +5,36 @@
 
 
 .workItem{
-    width: 40%;
+    width: 300px;
     background-color: burlywood;
     border: 2px solid brown;
    /* width: 40%;*/
    /* height: 100%;*/
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 
 .button {
     width: 100px;
-    height: 50px;
+    min-height: 50px;
+    background-color: darkgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.2px;
+    line-height: 150%;
 }
 
 .photoContainer{
-    height: 70%;
+    height: 200px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #61dafb;
     width: 100%;
-
 }
 
 .title{
@@ -38,6 +44,7 @@
     background-color: darkgray;
 }
 .description{
+    width: 100%;
     border: 2px solid blue;
     display: flex;
     flex-direction: column;

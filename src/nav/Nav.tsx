@@ -1,13 +1,13 @@
 import React from 'react';
 import n from './Nav.module.css'
+
 const Nav = () => {
     return (
         <div className={n.nav}>
-            <a href="">Главная</a>
-            <a href="">Скиллы</a>
-            <a href="">Проекты</a>
-            <a href="">Контакты</a>
-
+            <a className={n.a} href="#">Главная</a>
+            <a className={n.a} href="#">Скиллы</a>
+            <a className={n.a} href="#">Проекты</a>
+            <a className={n.a} href="#">Контакты</a>
         </div>
     );
 };

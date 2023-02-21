@@ -2,7 +2,7 @@ import React from 'react';
 import skill from './Skill.module.css'
 
 
-type SkillType={
+type SkillType = {
     title: string
     description: string
 }

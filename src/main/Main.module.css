@@ -1,18 +1,17 @@
 
-
-
-.mainBlock{
-    height: 100vh;
+.mainBlock {
+    min-height: 100vh;
     background-color: #1e2125;
 }
 
-.text{
+.text {
     width: 300px;
     font-size: 18px;
     color: #c4cfde;
     background-color: brown;
 }
-.photo{
+
+.photo {
     width: 300px;
     height: 400px;
     background-color: aquamarine;

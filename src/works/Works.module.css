@@ -2,7 +2,7 @@
 
 
 .worksBlock{
-    height: 100vh;
+    min-height: 100vh;
     background-color: mediumpurple;
 }
 .worksContainer{
@@ -16,9 +16,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /*height: 70%;*/
-
-
+    height: 70%;
 }
 .title{
     background-color: aquamarine;
